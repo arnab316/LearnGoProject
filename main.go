@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -22,7 +23,7 @@ func main() {
 	//fmt.Println(len(myString))
 
 	// Accessing individual characters in a string
-	//fmt.Println(myString[7])
+	fmt.Println(myString[7])
 
 	// Check if a string contains a substring
 	//fmt.Println(strings.Contains(myString, "World"))
